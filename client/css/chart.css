@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #084568;
+}
+
+.content {
+    display:flex;
+    overflow: hidden;
+}
+.leftBar {
+    width: 20vw;
+    height: 100vh;
+    background-color: #084568;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chartSide {
+    width: 80vw;
+    height: 100vh;
+
+    background-color: rgb(233, 233, 233);
+}
+
+.titleBar {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.btn-Bar {
+     width: 80%;
+     padding: 20px;
+     border: none;
+     margin: 2px;
+     font-weight: bold;
+
+}
+
+.btn-Bar:hover {
+    background-color: #5b7380;
+    color: white;
+}
+
+.data-table {
+    margin-top: 5vw;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.table {
+    width: 15vh;
+    height: 15vh;
+    color: white;
+    border: 2px solid white ;
+}
+
+
+.table thead tr th {
+    padding: 20px;
+    color: white;
+
+}
+.table tbody tr {
+    color: white;
+
+}
+
+.table tbody tr td {
+    padding: 25px;
+    color: white;
+}
+
+.chartSide {
+   padding: 100px;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   justify-content: space-between;
+   align-items: start;
+}
+
+.radar-div {
+    font-weight: bold;
+    text-align: center;
+}
+#radarChart {
+    width: 350px;
+    height: 350px;
+}
+
+.bar-div {
+    font-weight: bold;
+    text-align: center;
+}
+
+#barChart {
+    width: 600px;
+    height: 600px;
+}
+
+.Bubble-div {
+    font-weight: bold;
+    text-align: center;
+}
+
+#BubbleChart {
+    width: 550px;
+    height: 550px;
+}
+
+
+.Doughnut-div {
+    font-weight: bold;
+    text-align: center;
+}
+
+#DoughnutChart {
+    width: 300px;
+    height: 300px;
+}
+
+.Line-div {
+    font-weight: bold;
+    text-align: center;
+}
+
+#LineChart {
+    width: 500px;
+    height: 500px;
+}
+
+.Polar-div {
+    font-weight: bold;
+    text-align: center;
+}
+
+#PolarChart {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.TextDiv {
+  margin-top: 50px;
+  color: white;
+}

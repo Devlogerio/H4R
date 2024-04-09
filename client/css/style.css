@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #084568;
+    position: relative;
+
+}
+
+
+
+#navbar {
+    background-color: #0b354e;
+}
+
+#navbar-items {
+    background-color: #0b354e
+}
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+    width: 100vw;
+    
+}
+
+.tabs {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+    width: 100vw;
+}
+
+.tabs .nav .nav-item a {
+    color: white;
+    transition: 0.5 ease;
+}
+.tabs .nav .nav-item a:hover {
+    color: white;
+    transition: 0.5 ease;
+}
+
+.tabs .nav .nav-item .active {
+    background-color: #0b354e;
+    border-bottom: 2px solid white;
+    width: 100%;
+    border-radius: 1px;
+    transition: 0.5 ease;
+}
+
+#table {
+    overflow: hidden;
+    max-width: 100%;
+}
+#table-div {
+    overflow: hidden;
+}
+
+.nav-link {
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(196, 196, 196);
+}
+
+
+.login {
+    height: 100vh;
+    width: 100%;
+    background-color: #084568;
+    position: relative;
+}
+
+#icon-delete {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5 ease;
+
+}
+
+#icon-delete:hover {
+    color: red;
+    transition: 0.5 ease;
+    cursor: pointer;
+}
+
+#delete-row {
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#chat {
+    overflow: hidden;
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.typingMessage {
+    background-color: #084568;
+    border-radius: 2px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10vh;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+.messageBox {
+    width: 80vw;
+    height: 5vh;
+    padding: 5px;
+    outline: none;
+    border-radius: 8px;
+}
+
+
+#button-addon1 {
+    float: left;
+}
+
+#send-icon {
+    color: white;
+    font-size: 4vw;
+}
+#send-icon:hover {
+    color: #0b354e;
+}
+.chat-messages div {
+    padding-left:10px;
+    padding-top:5px;
+    margin-top: 5px;
+    display: inline-block;
+
+
+}
+.text {
+    background-color: white;
+    border-radius: 6px;
+    max-width: 90%;
+    padding: 6px;
+    display: inline-block;
+    overflow: hidden;
+    
+}
+
+
+#calender {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+
+    overflow: hidden;
+}
+#calender-internal {
+    padding: 20px;
+}
+#main-calender {
+    padding: 7px;
+
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#calender-input {
+    outline: none;
+    border: nones;
+    padding: 7px;
+}
+
+#calender-btn-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#todo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp-check {
+    background-color: white;
+}
+
+#enter-exit {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+
+    overflow: hidden;
+}
+
+#btn-Ex {
+    width: 20vw;
+}
+
+#latlongNum {
+    color: white;
+    font-weight: bold;
+}
+
+#distanceNum {
+    color: white;
+    font-weight: bold;
+}

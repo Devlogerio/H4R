@@ -1,0 +1,6 @@
+[{
+    "setup" : {
+    "projectname" : "ddtsd" ,
+    "connectionString" : "mongodb+srv://devlogerio:BBB489bbb@ddtsd.nm7hlqy.mongodb.net/?retryWrites=true&w=majority"
+    }
+}]
